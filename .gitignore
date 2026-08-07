@@ -3,3 +3,6 @@ dist/
 .env
 *.exe
 *.log
+SA-Project.zip
+.claude/worktrees/
+SA-Project.zip

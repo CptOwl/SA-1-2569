@@ -1,0 +1,27 @@
+.app-shell {
+  width: 100%;
+  min-height: 100vh;
+}
+
+.app-shell__backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.4);
+  z-index: 55;
+}
+
+.app-shell__main {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+  min-height: 100vh;
+}
+
+.app-shell__content {
+  flex: 1;
+  background: #f6f7f9;
+  padding: 32px;
+  box-sizing: border-box;
+  overflow-y: auto;
+}
